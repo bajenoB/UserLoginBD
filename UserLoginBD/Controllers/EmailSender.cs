@@ -3,27 +3,27 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace UserLoginBD.Controllers
 {
-    public class RegisterUser : Controller
+    public class EmailSender : Controller
     {
-        // GET: RegisterUser
+        // GET: EmailSender
         public ActionResult Index()
         {
             return View();
         }
 
-        // GET: RegisterUser/Details/5
+        // GET: EmailSender/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        // GET: RegisterUser/Create
+        // GET: EmailSender/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: RegisterUser/Create
+        // POST: EmailSender/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
@@ -38,13 +38,13 @@ namespace UserLoginBD.Controllers
             }
         }
 
-        // GET: RegisterUser/Edit/5
+        // GET: EmailSender/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: RegisterUser/Edit/5
+        // POST: EmailSender/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
@@ -59,13 +59,13 @@ namespace UserLoginBD.Controllers
             }
         }
 
-        // GET: RegisterUser/Delete/5
+        // GET: EmailSender/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: RegisterUser/Delete/5
+        // POST: EmailSender/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)
